@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Imperial+Script&family=Luxurious+Roman&family=Norican&family=Oswald&family=Prosto+One&family=Saira+Condensed:wght@300;400&display=swap');
-/* * {
+* {
     background-color: rgb(22, 22, 22);
-} */
+}
+
+/* end of top title and nav bar */
 header h1{
     text-align: center;
 }
