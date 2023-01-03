@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Imperial+Script&family=Luxurious+Roman&family=Norican&family=Oswald&family=Prosto+One&family=Saira+Condensed:wght@300;400&display=swap');
+/* * {
+    background-color: rgb(22, 22, 22);
+} */
+header h1{
+    text-align: center;
+}
+.Navbar {
+    border: 2px solid magenta;
+    background-color: black;
+
+}
+/* control edge */
+
+.Navbar li {
+    list-style: none;
+    display: flex;
+}
+
+.Navbar li h1{
+    color: white;
+    font-size: 250%;
+    font-family: 'Prosto One', cursive;
+    padding-left: 7%;
+    padding-top: 7%;
+}
+/* title name */
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-top: 4%;
+}
+/* ul design */
+
+@media (max-width: 675px) {
+    .bar {
+       flex-direction: column;
+    }
+
+    header {
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 675px) {
+    .Navbar ul {
+        flex-direction: column;
+    }
+    .Navbar li a{
+        margin: 0.5em 10em;
+    }
+}
+/* ul li {
+    margin-left: 3em;
+} */
+li {
+    margin: 0 2em 0;
+    /* justify-content: center; */
+}
+/* margin to space inline */
+
+li a {
+    text-decoration: none;
+    /* color: #B10FB1; */
+    color: white;
+    font-family: 'Prosto One', cursive;
+}
+
+/* end of top title and nav bar */
+
+
