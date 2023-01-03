@@ -67,7 +67,7 @@ header h1{
 } */
 li {
     margin: 0 2em 0;
-    /* justify-content: center; */
+    justify-content: center;
 }
 /* margin to space inline */
 
