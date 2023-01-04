@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(197, 183, 166); */
+    background-color: #161718;
+    outline: none;
+}
+
+/* start cal mod */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* alignitems moves container to vertical and horizontal center. */
+
+.calculator {
+    background-color:  #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 10px 16px #ffffff, 
+                      5px 5px 16px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    border: 2px solid magenta;
+}
+
+.mode {
+    font-size: 20px;
+    border-radius: 80px;
+    background-color: #161718;
+    padding-left: 50px;
+}
+/* border radius the container curve 
+border inset set blend container
+grid 4 select 4 columns &78px width*/
+
+input {
+    grid-column: span 4;
+    height: 88px;
+    width: 278px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px  12px #ffffff,
+                inset  5px  5px  12px   rgba(0,0,0,.16);
+    border: none;
+    border-radius: 7px;
+    color: rgba(70,70,70);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: end;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+/* span to increase sixze to column 4 */
+
+button {
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 50px;
+    margin: 8px;
+    /* font-size: 18px; */
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.symbol {
+    background-color: purple;
+    color: #ffffff;
+}
+
+.equal {
+    background-color: purple;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: rgb(95, 22, 95);
+}
+
+.equal {
+    width: 150px;
+    /* background-color: #ecf0f3; */
+    box-shadow: -5px -5px 12px #ffffff
+                 5px 5px  12px rgb(0,0,0,.1.6); 
+    border: none;
+
+}
+
+
+/* another */
