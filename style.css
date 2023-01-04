@@ -21,7 +21,7 @@ header h1{
 
 .Navbar li h1{
     color: white;
-    font-size: 250%;
+    /* font-size: 250%; */
     font-family: 'Prosto One', cursive;
     padding-left: 7%;
     padding-top: 7%;
@@ -43,7 +43,7 @@ header h1{
 }
 /* ul design */
 
-@media (max-width: 675px) {
+/* @media (max-width: 675px) {
     .bar {
        flex-direction: column;
     }
@@ -61,7 +61,7 @@ header h1{
     .Navbar li a{
         margin: 0.5em 10em;
     }
-}
+} */
 /* ul li {
     margin-left: 3em;
 } */
