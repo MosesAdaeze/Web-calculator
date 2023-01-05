@@ -46,7 +46,7 @@ ul a {
 
 nav a:hover,
 nav a:focus {
-    color: #952295;
+    color: magenta;
 }
 
 nav li {
@@ -58,8 +58,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 9px 15px;
-    margin-top: 0 20px;
-    margin-left: ;
+    margin: -10px 40px 0;
     box-shadow: 5px 5px 12px #FFFAFA,
                 5px 5px 12px rgb(0,0,0,.1.6);
     border: none;
@@ -73,6 +72,9 @@ button {
 
 .active:hover {
     border-bottom: 4px solid #952295;
+}
+button:hover {
+    background-color: magenta;
 }
 /* .container {
     display: flex;
