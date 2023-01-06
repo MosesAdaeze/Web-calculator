@@ -55,7 +55,7 @@ nav li {
     margin: 1.5em 1.5em;
 }
 
-button {
+ul button {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -72,9 +72,33 @@ button {
     border-bottom: 4px solid #952295;
 }
 
-button:hover {
+ul button:hover {
     background-color: magenta;
     font-size: 18px;
+}
+
+
+@media (min-width:1200px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+/* start home context */
+.context {
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 235px;
+}
+
+.column {
+    margin: 0 5em;
+    text-align: center;
 }
 
 @media (max-width:675px) {
@@ -85,14 +109,28 @@ button:hover {
     nav li {
         margin: 0.9em;
     }
+    .column {
+        margin: 3em;
+    }
+    .context {
+        padding-top: 85px;
+    }
+
 }
 
-@media (min-width:1200px) {
-    .container {
-        display: flex;
-        justify-content: space-between;
-    }
+.column button {
+    padding: 20px 25px;
+    border-radius: 3em;
 }
+
+.column h3 {
+    padding-top: 15px;
+}
+
+.column button:hover {
+    border: 2px solid magenta;
+}
+
 
 
 
