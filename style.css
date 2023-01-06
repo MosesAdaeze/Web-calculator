@@ -12,16 +12,16 @@
 }
 
 .container {
+    align-items: center;
     padding: 30px 30px;
 }
- /* header {
-    text-align: center;
- } */
+
  section {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 1em;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -47,9 +47,11 @@ ul a {
 nav a:hover,
 nav a:focus {
     color: magenta;
+    font-size: 18px;
 }
 
 nav li {
+    text-align: center;
     margin: 1.5em 1.5em;
 }
 
@@ -66,16 +68,35 @@ button {
     border-radius: 3em;
 }
 
-.active{
-    border-bottom: 4px solid magenta;
-}
-
 .active:hover {
     border-bottom: 4px solid #952295;
 }
+
 button:hover {
     background-color: magenta;
+    font-size: 18px;
 }
+
+@media (max-width:675px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.9em;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
 /* .container {
     display: flex;
     justify-content: center;
