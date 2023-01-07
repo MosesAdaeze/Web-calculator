@@ -131,7 +131,11 @@ ul button:hover {
     border: 2px solid magenta;
 }
 
+/* start little footer */
 
+.footer {
+    background-color: #952295;
+}
 
 
 
