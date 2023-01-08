@@ -1,4 +1,30 @@
-// let display = document.getElementById('screen');
+
+let outputDcreen = document.getElementById("outputScreen")
+function show(num){
+    outputScreen.value += num
+}
+function calculate(){
+    try{
+        outputScreen.value = eval
+        (outputScreen.value);
+    }
+    catch(err){
+        outputScreen.value("invaojiad")
+    }
+}
+function wipe(){
+    outputScreen.value = "";
+}
+
+function del(){
+    outputScreen.value = outputScreen.value
+    .slice(0, -1)
+}
+
+
+// NOTE: 1
+
+// let display = document.getElementById('outputScreen');
     
 // const wipe = () => {
 //     display.value = '';
@@ -10,26 +36,3 @@
 // const calculate = () => {
 //     display.value = eval(display.value);
 // }
-
-let outputscreen = document
-.getElementById("outputscreen")
-function show(num){
-    outputscreen.value += num
-}
-function calculate(){
-    try{
-        outputscreen.value = eval
-        (outputscreen.value);
-    }
-    catch(err){
-        outputscreen.value("invaojiad")
-    }
-}
-function wipe(){
-    outputscreen.value = "";
-}
-
-function del(){
-    outputscreen.value = outputscreen.value
-    .slice(0, -1)
-}
