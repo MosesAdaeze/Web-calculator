@@ -28,11 +28,11 @@ section {
 .calculator {
     background-color:  #ecf0f3;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 35px;
     box-shadow: inset 5px 10px 16px #ffffff, 
                       5px 5px 16px rgba(0,0,0,.16);
     display: grid;
-    grid-template-columns: repeat(6,100px);
+    grid-template-columns: repeat(6,95px);
     border: 2px solid magenta;
 }
 
@@ -43,20 +43,20 @@ grid 4 select 4 columns &78px width*/
 input {
     grid-column: span 6;
     height: 95px;
-    width: 278px;
+    width: 500px;
     background-color: #ecf0f3;
     box-shadow: inset -5px -5px  12px #ffffff,
                 inset  5px  5px  12px   rgba(0,0,0,.16);
     border: none;
     border-radius: 7px;
     color: rgba(70,70,70);
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     text-align: end;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 17px;
 }
 /* span to increase sixze to column 4 */
 
@@ -68,8 +68,9 @@ button {
                  5px 5px 12px rgba(0,0,0,.16);
     border: none;
     border-radius: 50px;
-    margin: 6px;
-    font-size: 25px;
+    margin: 7px;
+    margin-left: 15px;
+    font-size: 19px;
     font-weight: 700;
 }
 
