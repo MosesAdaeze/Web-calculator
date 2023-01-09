@@ -32,7 +32,7 @@ section {
     box-shadow: inset 5px 10px 16px #ffffff, 
                       5px 5px 16px rgba(0,0,0,.16);
     display: grid;
-    grid-template-columns: repeat(6,120px);
+    grid-template-columns: repeat(6,95px);
     border: 2px solid magenta;
 }
 
@@ -71,7 +71,7 @@ button {
     margin: 7px;
     margin-left: 15px;
     font-size: 19px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .symbol {
@@ -98,7 +98,7 @@ button:hover {
 }
 
 .equal {
-    width: 100px;
+    width: 150px;
     /* background-color: #ecf0f3; */
     box-shadow: -5px -5px 12px #ffffff
                  5px 5px  12px rgb(0,0,0,.1.6); 
@@ -107,3 +107,18 @@ button:hover {
 }
 /* another */
 /* animated background */
+/* Responsiveness */
+
+@media (max-width: 675px) {
+    .calculator {
+        border-radius: 50px;
+        grid-template-columns: repeat(6, 70px);
+    }
+    input {
+        width: 350px;
+    }
+
+    .equal {
+        width: 110px;
+    }
+}
