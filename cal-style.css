@@ -32,7 +32,7 @@ section {
     box-shadow: inset 5px 10px 16px #ffffff, 
                       5px 5px 16px rgba(0,0,0,.16);
     display: grid;
-    grid-template-columns: repeat(6,95px);
+    grid-template-columns: repeat(6,120px);
     border: 2px solid magenta;
 }
 
@@ -98,7 +98,7 @@ button:hover {
 }
 
 .equal {
-    width: 150px;
+    width: 100px;
     /* background-color: #ecf0f3; */
     box-shadow: -5px -5px 12px #ffffff
                  5px 5px  12px rgb(0,0,0,.1.6); 

@@ -1,5 +1,5 @@
 
-let outputDcreen = document.getElementById("outputScreen")
+let outputScreen = document.getElementById("outputScreen")
 function show(num){
     outputScreen.value += num
 }
@@ -25,53 +25,50 @@ function del(){
 // slice all button del to delete only a number ,-1
 
 function sin() {
-    screen.value = Math.sin(screen.value);
+    outputScreen.value = Math.sin(outputScreen.value);
 }
 
 function cos() {
-    screen.value = Math.cos(screen.value);
+    outputScreen.value = Math.cos(outputScreen.value)
 }
 
 function tan() {
-    screen.value = Math.tan(screen.value);
+    outputScreen.value = Math.tan(outputScreen.value)
 }
 
 function pow() {
-    screen.value = Math.pow(screen.value, 2);
+    outputScreen.value = Math.pow(outputScreen.value, 2)
 }
 
 function sqrt() {
-    screen.value = Math.sqrt(screen.value, 2);
+    outputScreen.value = Math.sqrt(outputScreen.value, 2)
 }
 
 function log() {
-    screen.value = Math.log(screen.value);
+    outputScreen.value = Math.log(outputScreen.value)
 }
 
 function pi() {
-    screen.value = 3.14159265359;
+    outputScreen.value = 3.14159265359;
 }
 
 function e() {
-    screen.value = 2.71828182846;
+    outputScreen.value = 2.71828182846;
 }
 
 function fact() {
     var i, num, f;
     f = 1
-    num = screen.value;
+    num = outputScreen.value;
     for (i = 1; i <= num; i++) {
         f = f * i;
     }
 
     i = i - 1;
 
-    screen.value = f;
+    outputScreen.value = f;
 }
 
-function backspc() {
-    screen.value = screen.value.substr(0, screen.value.length - 1);
-}
 
 // NOTE: 1
 
