@@ -40,6 +40,8 @@ section {
 border inset set blend container
 grid 4 select 4 columns &78px width*/
 
+/* 95px : for 6 columns should fit 95px con-calculator */
+
 input {
     grid-column: span 6;
     height: 95px;
@@ -58,7 +60,7 @@ input {
     margin-bottom: 30px;
     padding: 17px;
 }
-/* span to increase sixze to column 4 */
+/* span to increase sixze to column 6 */
 
 button {
     height: 48px;
@@ -106,9 +108,7 @@ button:hover {
 
 }
 
-/* another */
-/* animated background */
-/* Responsiveness */
+/* BEgin Responsiveness */
 
 @media (max-width: 675px) {
     .calculator {
@@ -123,3 +123,5 @@ button:hover {
         width: 110px;
     }
 }
+
+/* end Responsiveness */
