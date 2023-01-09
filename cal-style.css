@@ -112,7 +112,7 @@ button:hover {
 @media (max-width: 675px) {
     .calculator {
         border-radius: 50px;
-        grid-template-columns: repeat(6, 70px);
+        grid-template-columns: repeat(6, 65px);
     }
     input {
         width: 350px;
