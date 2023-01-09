@@ -68,6 +68,10 @@ function fact() {
 
     outputScreen.value = f;
 }
+// outputScreen: the calculator id
+
+
+
 
 
 // NOTE: 1
