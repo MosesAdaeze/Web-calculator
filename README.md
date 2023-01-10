@@ -23,7 +23,9 @@ Overview:
 * The del() function is also used to delete each of a value in the input tag.
 * The show() function is used to type the corresponding value of the clicked button into the input tag.
 * The calculate() function evaluates the value of the input tag and does the actual calculations
-* OTHERS: 
+* OTHERS: scientific mathematical symbol ie(sin, cos, log etc) use function log(), sin() reflected in Js.
 
-
+Features:
 | Responsive Navigation bar |
+| Logo and text side to side |
+| Responsive calculator |
