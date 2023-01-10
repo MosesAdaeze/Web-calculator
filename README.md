@@ -13,8 +13,11 @@ IDE- Visual studio code
 > JAVASCRIPT
 
 Overview
-
-> The calculator is styled using CSS grid
+ .
+ .
+ .
+ .
+ .The calculator is styled using CSS grid
 > The screen portion is a single input tag with a class and an ID. The class is for styling and the ID is used for accessing the element in JavaScript
 > Each button has a class of either 'symbol' or 'number', which are used for styling purposes
 > Class 'symbol' has a style for the mathematical symbol in the calculator
