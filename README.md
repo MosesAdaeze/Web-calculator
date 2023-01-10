@@ -25,7 +25,7 @@ Overview:
 * The calculate() function evaluates the value of the input tag and does the actual calculations
 * OTHERS: scientific mathematical symbol ie(sin, cos, log etc) use function log(), sin() reflected in Js.
 
-Features:
-| Responsive Navigation bar |
-| Logo and text side to side |
-| Responsive calculator |
+Features:<br/>
+| Responsive Navigation bar |<br/>
+| Logo and text side to side |<br/>
+| Responsive calculator |<br/>
