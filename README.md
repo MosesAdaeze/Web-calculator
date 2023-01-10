@@ -18,8 +18,8 @@ Overview
  .
  .
  &nbsp; &nbsp; &nbsp; The calculator is styled using CSS grid
-> The screen portion is a single input tag with a class and an ID. The class is for styling and the ID is used for accessing the element in JavaScript<br/>
-> Each button has a class of either 'symbol' or 'number', which are used for styling purposes
+* The screen portion is a single input tag with a class and an ID. The class is for styling and the ID is used for accessing the element in JavaScript<br/>
+* Each button has a class of either 'symbol' or 'number', which are used for styling purposes
 > Class 'symbol' has a style for the mathematical symbol in the calculator
 > Each button also has an onclick function assigned to it -- acessing elment in javascript also.
 > The wipe() function is used to clear the display by resetting the value of the input tag to an empty string (Empty input display)
