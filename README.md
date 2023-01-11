@@ -32,7 +32,7 @@ Features:<br/>
 
 Webview: <br/>
 [Screenshot 2023-01-10 132310](https://user-images.githubusercontent.com/108338208/211551036-37ec0f68-77d0-49f4-a6f9-25f4f387234c.png)<br/>
-[hgjty](https://user-images.githubusercontent.com/108338208/211783069-01c98990-fed8-486a-a202-b0de6268383e.png)
+[Screenshot 2023-01-11 112950](https://user-images.githubusercontent.com/108338208/211783402-f34914e2-990a-458f-8fe4-0e4a4a079448.png)
 
 
 !!! Read comment in code to understand.
